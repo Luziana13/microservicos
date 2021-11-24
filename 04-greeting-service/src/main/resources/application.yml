@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: greeting-service
+
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include:
+        - '*'
+greeting-service:  
+  greeting: "Olá"
+  default-value: "Mundo"
